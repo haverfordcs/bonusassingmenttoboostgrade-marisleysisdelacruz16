@@ -1,0 +1,37 @@
+Attempt the following seven questions.
+Total bonus grade is 10%. 
+You must submit this by Noon December 20th to be graded. 
+Make sure you develop 5 test cases for each of your own and test your code. 
+
+Que1. Write a recursive function that takes an integer as an input and returns the equivalent binary. Test your code on three different inputs. The process of conversion from decimal to binary is given here (https://www.wikihow.com/Convert-from-Decimal-to-Binary) 
+			def compute_binary(number):
+			       <your code goes here>
+
+
+Que2. Write a recursive function that takes two integers and returns the Greatest Common Divisor (GCD) for both of the integers.  Test your code on three different inputs. 
+
+			def gcd(number1, number2):
+			       <your code goes here>
+
+Que3. Given a non-negative int n, return the sum of its digits recursively (no loops). Note that mod (%) by 10 yields the rightmost digit (126 % 10 is 6), while divide (/) by 10 removes the rightmost digit (126 / 10 is 12).
+
+sum_digits(126) → 9
+sum_digits(49) → 13
+sum_digits(12) → 3
+
+
+Que4. Given an array length 1 or more of ints, return the difference between the largest and smallest values in the array. Note: the built-in min(v1, v2) and max(v1, v2) functions return the smaller or larger of two values.
+
+big_diff([10, 3, 5, 6]) → 7
+big_diff([7, 2, 10, 9]) → 8
+big_diff([2, 10, 7, 2]) → 8
+
+
+Que5. Return the "centered" average of an array of ints, which we'll say is the mean average of the values, except ignoring the largest and smallest values in the array. If there are multiple copies of the smallest value, ignore just one copy, and likewise for the largest value. Use int division to produce the final average. You may assume that the array is length 3 or more.
+
+centered_average([1, 2, 3, 4, 100]) → 3
+centered_average([1, 1, 5, 5, 10, 8, 7]) → 5
+centered_average([-10, -4, -2, -4, -2, 0]) → -3
+
+
+
