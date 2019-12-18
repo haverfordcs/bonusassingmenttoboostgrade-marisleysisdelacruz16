@@ -4,7 +4,7 @@ You must submit this by Noon December 20th to be graded.
 Make sure you develop 5 test cases for each of your own and test your code. 
 
 Que1. Write a recursive function that takes an integer as an input and returns the equivalent binary. Test your code on three different inputs. The process of conversion from decimal to binary is given here (https://www.wikihow.com/Convert-from-Decimal-to-Binary) 
-			def compute_binary(number):
+    def compute_binary(number):
 			       <your code goes here>
 
 

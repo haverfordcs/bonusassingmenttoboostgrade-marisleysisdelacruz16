@@ -1,0 +1,84 @@
+'''
+>>> import Solutions as SP
+
+# Test Cases
+# Running doc test through the main code
+# python -m doctest -v test_cases.txt
+
+>>> f= 14
+>>> g= 220
+>>> h= 165
+>>> i= 138
+>>> j= 270
+
+>>> SP.compute_binary(f)
+1110''
+>>> SP.compute_binary(g)
+11011100''
+>>> SP.compute_binary(h)
+10100101''
+>>> SP.compute_binary(i)
+10001010''
+>>> SP.compute_binary(j)
+100001110''
+
+
+>>> num1 = 5
+>>> num2 = 35
+>>> num3 = 84
+>>> num4 = 9
+>>> num5 = 7
+>>> num6 = 5
+>>> num7 = 3
+>>> num8 = 10
+
+>>> SP.gcd(num1,num2)
+5
+>>> SP.gcd(num3,num4)
+3
+>>> SP.gcd(num5,num6)
+1
+
+>>> SP.gcd("23","90")
+False
+
+>>> SP.gcd(num7,num8)
+1
+
+
+>>> SP.sum_digits(4321)
+10
+>>> SP.sum_digits(194)
+14
+>>> SP.sum_digits(76)
+13
+>>> SP.sum_digits("24")
+False
+>>> SP.sum_digits(201)
+3
+
+
+>>> SP.big_diff([4, 13, 9, 16])
+12
+>>> SP.big_diff([7, 3, 0, 7])
+7
+>>> SP.big_diff([5, 11, 20, 2])
+18
+>>> SP.big_diff([6, 4, 1, 5])
+5
+>>> SP.big_diff([2, 8, 3, 7])
+6
+
+
+>>> SP.centered_average([5,4,2,2,10])
+3
+>>> SP.centered_average([1,2,8,3])
+2
+>>> SP.centered_average([-5,1,0,4,1])
+0
+>>> SP.centered_average([1, 2, 2, 9, -10, 4, 7])
+3
+>>> SP.centered_average([-2, -3, -5, -11, -2,])
+-4
+
+'''
